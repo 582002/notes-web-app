@@ -7,6 +7,7 @@ function NoteDetails({ selectedNote }) {
   if (!selectedNote) {
     return <div className="note-details">Please select a note to view details.</div>;
   }
+  
 
   return (
     <div className="note-details">
